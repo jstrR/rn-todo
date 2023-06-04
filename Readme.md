@@ -11,10 +11,22 @@ npx react-native start
 For ios:
 
 ```bash
+cd ios && pod install
+```
+
+```bash
+cd .. && npx react-native start
+```
+
+```bash
 npx react-native run-ios
 ```
 
 For android:
+
+```bash
+npx react-native start
+```
 
 ```bash
 npx react-native run-android
@@ -49,3 +61,11 @@ All business logic and side effects have been extracted into their own models fo
 ### State management
 
 Only **useState** is not enough to cover state management needs. Therefore, **useReducer** was used as a more sophisticated tool for the current needs. Even more complex state managers such as [Effector](https://effector.dev/), [Jotai](https://jotai.org/), [Zustand](https://zustand-demo.pmnd.rs/) were not used due to the assignment origin.
+
+## UI preview
+![iPhone 14 Pro - Main](https://github.com/jstrR/rn-todo/assets/25367655/650dc49b-9da3-432f-bf9d-e64a03c0cb10)
+![iPhone 14 Pro - Secondary](https://github.com/jstrR/rn-todo/assets/25367655/e0f576ae-268a-4811-9d77-38a6d00f4a86)
+![iPhone 14 Pro - Dark mode](https://github.com/jstrR/rn-todo/assets/25367655/29e81bd2-7b72-47be-bf45-6fb9a677bdf2)
+
+
+[Google Pixel 6Pro - Main](https://github.com/jstrR/rn-todo/assets/25367655/67dc639b-17b8-432e-b5d0-909a3619fb58)
